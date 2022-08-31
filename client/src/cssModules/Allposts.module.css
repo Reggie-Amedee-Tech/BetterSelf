@@ -1,0 +1,53 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.SpaceDiv{
+    min-height: 100vh;
+    height: auto;
+    
+}
+
+.OuterDiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    width: 100%;
+}
+
+.Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 5px solid black;
+    width: 30%;
+    height: 30vh;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: #B38372;
+}
+
+.H1 {
+    border-bottom: 1px solid black;
+    min-width: 90%;
+    padding-bottom: 10px;
+    
+
+}
+
+.Link {
+    border: 3px solid black;
+    text-decoration: none;
+    width: 20%;
+    padding: 5px;
+    color: black;
+    background-color: #84B3A8;
+}
+
+.Button {
+    padding: 5px;
+    background-color: #FFE1D6;
+}

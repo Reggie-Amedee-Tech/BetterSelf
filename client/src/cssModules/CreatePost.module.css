@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.MidSection {
+    width: 100%;
+    height: 89vh;
+}
+
+.Input {
+    width: 90%;
+    padding: 10px;
+    margin: 5px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
+
+.Input3 {
+    width: 90%;
+    padding: 10px;
+    margin: 5px;
+    height: 300px;
+    resize: none;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
+
+.Container {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    border: 3px solid black;  
+    margin: auto auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: #B38372;
+}
+
+.ButtonDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    border-top: solid black 0.1px;
+    margin: 0px 10px;
+    margin-top: 20px;
+}
+
+.Button {
+    width: 100px;
+    border-radius: 45%;
+    padding: 10px 0;
+    margin: 10px;
+    font-size: 1.1rem;
+    background-color: #84B3A8;
+}

@@ -1,0 +1,61 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.HERO {
+    background-image: url('../assets/hero.jpeg');
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 5px solid green;
+}
+
+.SignInSection {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.Link {
+    border: 3px solid black;
+    text-decoration: none;
+    width: 10%;
+    padding: 5px;
+    margin: 0 auto;
+    color: black;
+    background-color: #84B3A8;
+}
+
+.BottomDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    min-height: auto;
+}
+
+.PictureBox{
+    padding: 20px;
+}
+
+.Picture {
+    width: 20vw;
+    height: 30vh;
+}
+
+.H1 {
+    width: 20vw;
+    font-size: 1.1rem;
+}
+
+.P {
+    width: 15vw;
+    margin: 0 auto;
+}
+
